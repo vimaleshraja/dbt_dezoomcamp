@@ -18,9 +18,9 @@ renamed as (
       
       -- trip info
       store_and_fwd_flag,
-    --   cast(passenger_count as integer) as passenger_count,
+      cast(passenger_count as integer) as passenger_count,
       cast(trip_distance as numeric) as trip_distance,
-    --   cast(trip_type as integer) as trip_type,
+      cast(1 as integer) as trip_type,
       
       -- payment info
       cast(fare_amount as numeric) as fare_amount,
