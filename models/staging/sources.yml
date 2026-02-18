@@ -1,0 +1,10 @@
+version: 2 
+
+sources:
+  - name: raw_data
+    database: de-zoomcamp-485500
+    schema: zoomcamp
+    
+    tables:
+      - name: green_trip
+      - name: yellow_trip
